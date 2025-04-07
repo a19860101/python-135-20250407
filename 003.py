@@ -37,3 +37,7 @@ r = float(input('請輸入半徑:'))
 result = 2 * math.pi * r
 result = round(result,2)
 print(result)
+
+# 作業
+# 盎司(oz)換算毫升(ml)
+# 1盎司 =  29.573毫升
