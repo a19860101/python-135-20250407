@@ -29,7 +29,11 @@ print(math.pi)
 
 # 求圓周長 2*pi*r
 
-r = 10
+# t = input('請輸入文字')
+# print(t)
+
+
+r = float(input('請輸入半徑:'))
 result = 2 * math.pi * r
 result = round(result,2)
 print(result)
