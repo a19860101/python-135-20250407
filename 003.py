@@ -26,3 +26,10 @@ print(math.floor(3.5))
 print(math.ceil(3.6))
 
 print(math.pi)
+
+# 求圓周長 2*pi*r
+
+r = 10
+result = 2 * math.pi * r
+result = round(result,2)
+print(result)
