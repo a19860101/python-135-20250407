@@ -27,9 +27,20 @@ a = 1
 
 
 # 巢狀迴圈
-for x in ['x','y','z']:
-    for y in [1,2,3]:
-        if y == 3:
-            continue
-        print(x,y)
+# for x in ['x','y','z']:
+#     for y in [1,2,3]:
+#         if y == 3:
+#             continue
+#         print(x,y)
 
+# 99乘法表
+for i in range(1,10):
+    for j in range(1,10):
+        if i == 1:
+            continue
+        # print(i,'x',j,'=',i*j)
+        print(f'{i}x{j}={i * j}')
+
+
+for i in range(6):
+    print('-'* (6-i))
